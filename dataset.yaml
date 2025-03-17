@@ -1,0 +1,6 @@
+# moj_dataset.yaml
+path: samochody/
+train: images/train/
+val: images/test/
+nc: 1  
+names: ['samochód']  # Nazwy klas
