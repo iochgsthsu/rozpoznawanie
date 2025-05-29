@@ -7,7 +7,7 @@ from ultralytics import YOLO
 import PIL
 import cv2
 
-model = YOLO('moj_yolov5_600.pt').to('cuda')
+model = YOLO('model.pt').to('cuda')
 
 #print(model.names)
 cap = cv2.VideoCapture(0)  # 0 to domyślna kamera
